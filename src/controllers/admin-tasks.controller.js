@@ -145,6 +145,7 @@ function renderStats(stats) {
   if (changeEl) changeEl.textContent = stats.total > 0 ? 'Todas las tareas cargadas' : 'Aún no hay tareas';
 }
 
+
 async function loadAdminTasks(container) {
   if (!container) return;
   try {
