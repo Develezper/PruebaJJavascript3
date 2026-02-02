@@ -1,0 +1,111 @@
+.register-page {
+  background: linear-gradient(to right, #000000, #1a1a1a);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.register-page .top-bar {
+  width: 100%;
+  padding: 20px 40px;
+}
+
+.register-page .logo {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #cbd5e1;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.register-page .logo-icon {
+  width: 26px;
+  height: 32px;
+  background: linear-gradient(180deg, #ff6a00, #ff3c00);
+  clip-path: polygon(50% 0%, 100% 20%, 80% 100%, 20% 100%, 0% 20%);
+}
+
+.register-card {
+  background: white;
+  width: 420px;
+  border-radius: 14px;
+  padding: 35px;
+  margin-top: 40px;
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.3);
+}
+
+.register-card h1 {
+  text-align: center;
+  font-size: 26px;
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.register-card .subtitle {
+  text-align: center;
+  color: #64748b;
+  font-size: 14px;
+  margin-bottom: 25px;
+}
+
+.register-card form {
+  display: flex;
+  flex-direction: column;
+}
+
+.register-card label {
+  font-size: 13px;
+  color: #0f172a;
+  margin-bottom: 6px;
+  margin-top: 12px;
+}
+
+.register-card input {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #e2e8f0;
+  font-size: 14px;
+  outline: none;
+  transition: 0.2s;
+}
+
+.register-card input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 2px rgba(37, 99, 235, 0.15);
+}
+
+.register-card .btn-submit {
+  margin-top: 22px;
+  padding: 13px;
+  border-radius: 8px;
+  border: none;
+  background: #1d4ed8;
+  color: white;
+  font-weight: 600;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.register-card .btn-submit:hover {
+  background: #1e40af;
+}
+
+.register-card .auth-link {
+  text-align: center;
+  margin-top: 18px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.register-card .auth-link a {
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.register-card .auth-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,132 @@
+.login-page {
+  background: #eeeff3;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-container {
+  text-align: center;
+}
+
+.login-container .logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #292727;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.login-container .logo-icon {
+  width: 26px;
+  height: 32px;
+  background: linear-gradient(180deg, #ff6a00, #ff3c00);
+  clip-path: polygon(50% 0%, 100% 20%, 80% 100%, 20% 100%, 0% 20%);
+}
+
+.login-card {
+  background: #ffffff;
+  width: 360px;
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.25);
+}
+
+.login-card h2 {
+  margin-bottom: 6px;
+  color: #0f172a;
+}
+
+.login-card .subtitle {
+  font-size: 14px;
+  color: #6b7280;
+  margin-bottom: 24px;
+}
+
+.login-card form {
+  text-align: left;
+}
+
+.login-card label {
+  font-size: 14px;
+  font-weight: 500;
+  color: #0f172a;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.login-card input {
+  width: 100%;
+  padding: 10px 12px;
+  margin-bottom: 16px;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  font-size: 14px;
+}
+
+.password-wrapper {
+  position: relative;
+  margin-bottom: 16px;
+}
+
+.password-wrapper input {
+  margin-bottom: 0;
+  padding-right: 40px;
+}
+
+.password-wrapper .eye {
+  position: absolute;
+  right: 12px;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  color: #6b7280;
+  display: flex;
+  align-items: center;
+}
+
+.password-wrapper .eye svg {
+  width: 18px;
+  height: 18px;
+}
+
+.login-card .forgot {
+  display: block;
+  text-align: right;
+  font-size: 13px;
+  color: #2563eb;
+  text-decoration: none;
+  margin-bottom: 20px;
+}
+
+.login-card .btn-submit {
+  width: 100%;
+  background: #2563eb;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.login-card .btn-submit:hover {
+  background: #1d4ed8;
+}
+
+.login-card .auth-link {
+  margin-top: 18px;
+  font-size: 14px;
+  color: #64748b;
+  text-align: center;
+}
+
+.login-card .auth-link a {
+  color: #2563eb;
+  text-decoration: none;
+  font-weight: 500;
+}

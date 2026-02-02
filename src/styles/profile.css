@@ -1,0 +1,140 @@
+.profile-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(4px);
+}
+
+.profile-content {
+  position: relative;
+  z-index: 1001;
+  max-width: 500px;
+  width: 90%;
+  max-height: 90vh;
+  overflow-y: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: white;
+  border: none;
+  font-size: 28px;
+  cursor: pointer;
+  color: #64748b;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1002;
+  transition: all 0.2s;
+}
+
+.close-btn:hover {
+  background: #f1f5f9;
+  color: #0f172a;
+}
+
+.profile-card {
+  text-align: center;
+  background: white;
+  border-radius: 12px;
+  padding: 20px;
+}
+
+.profile-card .profile-header-bg {
+  height: 90px;
+  background: linear-gradient(90deg, #dbeafe, #e0e7ff);
+  border-radius: 12px 12px 0 0;
+  margin: -20px -20px 0 -20px;
+}
+
+.profile-card .avatar {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: -55px auto 10px;
+  display: block;
+  border: 5px solid white;
+  object-fit: cover;
+}
+
+.profile-card h2 {
+  color: #0f172a;
+  margin-bottom: 8px;
+}
+
+.profile-card .badge {
+  display: inline-block;
+  margin: 8px auto 15px;
+  background: #2563eb;
+  color: white;
+  padding: 5px 12px;
+  border-radius: 20px;
+  font-size: 13px;
+}
+
+.profile-card .email-box {
+  background: #f1f5f9;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #64748b;
+}
+
+.info-section {
+  margin-top: 25px;
+  text-align: left;
+}
+
+.info-section h3 {
+  color: #0f172a;
+  margin-bottom: 20px;
+  font-size: 18px;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 10px;
+}
+
+.info-item {
+  margin-bottom: 15px;
+}
+
+.info-item .label {
+  font-size: 13px;
+  color: #64748b;
+  display: block;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+
+.info-item p {
+  color: #0f172a;
+  font-size: 15px;
+  margin: 0;
+}
+
+@media (max-width: 768px) {
+  .profile-content {
+    width: 95%;
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "fullName": "Dr. Sarah Jenkins",
+      "email": "admin@crudtask.edu",
+      "password": "admin123",
+      "role": "admin",
+      "avatar": "https://i.pravatar.cc/150?img=12"
+    },
+    {
+      "id": 2,
+      "fullName": "Juan Pablo Vélez",
+      "email": "juan@crudtask.edu",
+      "password": "123456",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=33"
+    },
+    {
+      "id": 3,
+      "fullName": "Alex Morgan",
+      "email": "alex@crudtask.edu",
+      "password": "123456",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=47"
+    },
+    {
+      "fullName": "santiago jaramillo",
+      "email": "velezmesa666@gmail.com",
+      "password": "solodios",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=32",
+      "id": 4
+    },
+    {
+      "fullName": "sara mora",
+      "email": "sara@gmail.com",
+      "password": "123456",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=47",
+      "id": 5
+    },
+    {
+      "fullName": "sara munera",
+      "email": "saram@gmail.com",
+      "password": "solodios",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=24",
+      "id": 6
+    },
+    {
+      "fullName": "ASFSADGEDASGG GGGG",
+      "email": "JUANDDF@GMAIL.COM",
+      "password": "112233",
+      "role": "user",
+      "avatar": "https://i.pravatar.cc/150?img=14",
+      "id": 7
+    }
+  ],
+  "tasks": [
+    {
+      "name": "Juan pablo velezz",
+      "description": "Voy ganandoo",
+      "priority": "low",
+      "status": "in-progress",
+      "dueDate": "2025-12-24",
+      "userId": 1,
+      "id": 8
+    },
+    {
+      "name": "doble porcion",
+      "description": "mmmmmmmmmmmmmmmm gggggg",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-01-07",
+      "userId": 1,
+      "id": 10
+    },
+    {
+      "name": "adso",
+      "description": "tara 1212323",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-02-02",
+      "userId": 1,
+      "id": 11
+    },
+    {
+      "name": "asiii",
+      "description": "ggggggg gggg",
+      "priority": "low",
+      "status": "pending",
+      "dueDate": "2026-02-02",
+      "userId": 3,
+      "id": 12
+    },
+    {
+      "name": "Juan pablo velezzcccc",
+      "description": "asffffffff f",
+      "priority": "medium",
+      "status": "pending",
+      "dueDate": "2026-02-20",
+      "userId": 4,
+      "id": 17
+    },
+    {
+      "name": "valiudarrrr",
+      "description": "sadfdfdsg1ds1ggs1 1 ae ddfg",
+      "priority": "medium",
+      "status": "in-progress",
+      "dueDate": "2026-02-02",
+      "userId": 4,
+      "id": 19
+    },
+    {
+      "name": "mi tarea de sara mor",
+      "description": "SZFFF  fas f ad sf d f f",
+      "priority": "medium",
+      "status": "completed",
+      "dueDate": "2026-02-02",
+      "userId": 5,
+      "id": 20
+    },
+    {
+      "name": "eafgdg",
+      "description": "gdsggdsgg ffgg",
+      "priority": "medium",
+      "status": "in-progress",
+      "dueDate": "2026-02-03",
+      "userId": 1,
+      "id": 21
+    },
+    {
+      "name": "si se puededdddd",
+      "description": "1222zdgsb dggdggsdgddddddddd",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-02-05",
+      "userId": 6,
+      "id": 22
+    },
+    {
+      "name": "aaaaaaaa",
+      "description": "aaaaaaaaaaaaaaaaaaaaaaaaaaaaa",
+      "priority": "medium",
+      "status": "pending",
+      "dueDate": "2026-02-04",
+      "userId": 1,
+      "id": 23
+    },
+    {
+      "name": "bbbbbb dddd",
+      "description": "saffasfff qASAF SF SAF",
+      "priority": "high",
+      "status": "in-progress",
+      "dueDate": "2026-02-20",
+      "userId": 1,
+      "id": 24
+    },
+    {
+      "name": "aszfaf",
+      "description": "asffffffffffffff",
+      "priority": "high",
+      "status": "pending",
+      "dueDate": "2026-02-07",
+      "userId": 4,
+      "id": 25
+    },
+    {
+      "name": "ADDDDDDDDDDDDDDDDDD",
+      "description": "DDDDDDDDDDDDDDDDDDDD",
+      "priority": "high",
+      "status": "completed",
+      "dueDate": "2026-02-18",
+      "userId": 1,
+      "id": 26
+    }
+  ]
+}
